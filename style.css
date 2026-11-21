@@ -14,3 +14,5 @@ dialog{padding:0;border:0;color:var(--paper);background:#101216;position:fixed;m
 /* Shared partner marks: identical header and footer sizing. */
 .brand img,.footer-brand .brand img{width:64px;height:64px;object-fit:contain;flex-shrink:0}.brand img.mystudio-logo{width:76px;height:64px;filter:invert(1);mix-blend-mode:multiply}.footer-brand{align-items:center}.footer-logos{gap:16px;flex-shrink:0}
 @media(max-width:600px){.brand img,.footer-brand .brand img{width:49px;height:49px}.brand img.mystudio-logo,.footer-brand .brand img.mystudio-logo{width:58px;height:49px}.brand,.footer-logos{gap:10px}.brand span{display:none}.footer-brand{flex-wrap:wrap;gap:24px}.footer-brand p{padding-top:0}}
+
+.music-control{position:absolute;right:164px;bottom:19px;z-index:3;border:1px solid #ffffff50;background:#111a;color:white;backdrop-filter:blur(10px);border-radius:30px;padding:8px 14px;font-size:12px;min-width:105px}.music-control[aria-checked="true"]{background:var(--paper);color:var(--ink)}@media(max-width:600px){.music-control{right:133px;font-size:11px;padding:8px 11px;min-width:92px}}
